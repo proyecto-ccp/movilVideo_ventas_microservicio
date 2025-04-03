@@ -1,18 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ServicioProcesarVideo\\",
+  "WorkspaceRootPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ServicioVideo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{84984C47-3C5A-4C28-AAFE-5B84E0DB93DB}|ProcesarVideo.Aplicacion\\Videos.Aplicacion.csproj|d:\\edward romero\\documents\\miso\\proyecto final ii\\movilprocesarvideo_ventas_microservicio\\servicioprocesarvideo\\procesarvideo.aplicacion\\comandos\\manejadorcomandos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84984C47-3C5A-4C28-AAFE-5B84E0DB93DB}|ProcesarVideo.Aplicacion\\Videos.Aplicacion.csproj|solutionrelative:procesarvideo.aplicacion\\comandos\\manejadorcomandos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C1D87E1-B9C2-44AD-9D05-D2ACFA3504A5}|ServicioProcesarVideo\\ServicioVideo.csproj|d:\\edward romero\\documents\\miso\\proyecto final ii\\movilprocesarvideo_ventas_microservicio\\serviciovideo\\servicioprocesarvideo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7C1D87E1-B9C2-44AD-9D05-D2ACFA3504A5}|ServicioProcesarVideo\\ServicioVideo.csproj|solutionrelative:servicioprocesarvideo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84984C47-3C5A-4C28-AAFE-5B84E0DB93DB}|ProcesarVideo.Aplicacion\\Videos.Aplicacion.csproj|d:\\edward romero\\documents\\miso\\proyecto final ii\\movilprocesarvideo_ventas_microservicio\\servicioprocesarvideo\\procesarvideo.aplicacion\\comandos\\icomandosvideo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84984C47-3C5A-4C28-AAFE-5B84E0DB93DB}|ProcesarVideo.Aplicacion\\Videos.Aplicacion.csproj|solutionrelative:procesarvideo.aplicacion\\comandos\\icomandosvideo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84984C47-3C5A-4C28-AAFE-5B84E0DB93DB}|ProcesarVideo.Aplicacion\\Videos.Aplicacion.csproj|d:\\edward romero\\documents\\miso\\proyecto final ii\\movilprocesarvideo_ventas_microservicio\\servicioprocesarvideo\\procesarvideo.aplicacion\\dto\\videoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84984C47-3C5A-4C28-AAFE-5B84E0DB93DB}|ProcesarVideo.Aplicacion\\Videos.Aplicacion.csproj|solutionrelative:procesarvideo.aplicacion\\dto\\videoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C1D87E1-B9C2-44AD-9D05-D2ACFA3504A5}|ServicioProcesarVideo\\ServicioVideo.csproj|d:\\edward romero\\documents\\miso\\proyecto final ii\\movilprocesarvideo_ventas_microservicio\\serviciovideo\\servicioprocesarvideo\\controllers\\videocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C1D87E1-B9C2-44AD-9D05-D2ACFA3504A5}|ServicioProcesarVideo\\ServicioVideo.csproj|solutionrelative:servicioprocesarvideo\\controllers\\videocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,40 +27,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ManejadorComandos.cs",
-              "DocumentMoniker": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ServicioProcesarVideo\\ProcesarVideo.Aplicacion\\Comandos\\ManejadorComandos.cs",
-              "RelativeDocumentMoniker": "ProcesarVideo.Aplicacion\\Comandos\\ManejadorComandos.cs",
-              "ToolTip": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ServicioProcesarVideo\\ProcesarVideo.Aplicacion\\Comandos\\ManejadorComandos.cs",
-              "RelativeToolTip": "ProcesarVideo.Aplicacion\\Comandos\\ManejadorComandos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T03:57:28.59Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VideoIn.cs",
-              "DocumentMoniker": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ServicioProcesarVideo\\ProcesarVideo.Aplicacion\\Dto\\VideoIn.cs",
-              "RelativeDocumentMoniker": "ProcesarVideo.Aplicacion\\Dto\\VideoIn.cs",
-              "ToolTip": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ServicioProcesarVideo\\ProcesarVideo.Aplicacion\\Dto\\VideoIn.cs",
-              "RelativeToolTip": "ProcesarVideo.Aplicacion\\Dto\\VideoIn.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T03:53:40.302Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ServicioVideo\\ServicioProcesarVideo\\appsettings.json",
+              "RelativeDocumentMoniker": "ServicioProcesarVideo\\appsettings.json",
+              "ToolTip": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ServicioVideo\\ServicioProcesarVideo\\appsettings.json",
+              "RelativeToolTip": "ServicioProcesarVideo\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-03T03:25:54.762Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IComandosVideo.cs",
-              "DocumentMoniker": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ServicioProcesarVideo\\ProcesarVideo.Aplicacion\\Comandos\\IComandosVideo.cs",
-              "RelativeDocumentMoniker": "ProcesarVideo.Aplicacion\\Comandos\\IComandosVideo.cs",
-              "ToolTip": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ServicioProcesarVideo\\ProcesarVideo.Aplicacion\\Comandos\\IComandosVideo.cs",
-              "RelativeToolTip": "ProcesarVideo.Aplicacion\\Comandos\\IComandosVideo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Title": "VideoController.cs",
+              "DocumentMoniker": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ServicioVideo\\ServicioProcesarVideo\\Controllers\\VideoController.cs",
+              "RelativeDocumentMoniker": "ServicioProcesarVideo\\Controllers\\VideoController.cs",
+              "ToolTip": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ServicioVideo\\ServicioProcesarVideo\\Controllers\\VideoController.cs",
+              "RelativeToolTip": "ServicioProcesarVideo\\Controllers\\VideoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T03:47:03.179Z",
+              "WhenOpened": "2025-04-03T03:13:12.426Z",
               "EditorCaption": ""
             }
           ]

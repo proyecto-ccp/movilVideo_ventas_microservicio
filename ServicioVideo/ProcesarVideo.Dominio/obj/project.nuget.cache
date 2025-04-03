@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s5JPG/2N6JY=",
+  "dgSpecHash": "IuyUSVvRBgY=",
   "success": true,
-  "projectFilePath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ServicioProcesarVideo\\ProcesarVideo.Dominio\\Videos.Dominio.csproj",
+  "projectFilePath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ServicioVideo\\ProcesarVideo.Dominio\\Videos.Dominio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

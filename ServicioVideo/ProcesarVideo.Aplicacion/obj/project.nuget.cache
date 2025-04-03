@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "+Yi3AgfWjf0=",
+  "dgSpecHash": "ceCLhc94yuc=",
   "success": true,
-  "projectFilePath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ServicioProcesarVideo\\ProcesarVideo.Aplicacion\\Videos.Aplicacion.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ServicioVideo\\ProcesarVideo.Aplicacion\\Videos.Aplicacion.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\edw_5\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
+    "C:\\Users\\edw_5\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\edw_5\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\edw_5\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
