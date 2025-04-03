@@ -4,7 +4,7 @@ using Videos.Infraestructura.Adaptadores.RepositorioGenerico;
 
 namespace Videos.Infraestructura.Adaptadores.Repositorios
 {
-    internal class VideoRepositorio : IVideoRepositorio
+    public class VideoRepositorio : IVideoRepositorio
     {
         private readonly IRepositorioBase<Video> _repositorioBase;
 
