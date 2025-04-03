@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eyz4nOfGpjg=",
+  "dgSpecHash": "bI3DuDqgByQ=",
   "success": true,
-  "projectFilePath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ServicioProcesarVideo\\ProcesarVideo.Infraestructura\\Videos.Infraestructura.csproj",
+  "projectFilePath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ServicioVideo\\ProcesarVideo.Infraestructura\\Videos.Infraestructura.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\edw_5\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.3\\microsoft.entityframeworkcore.9.0.3.nupkg.sha512",
     "C:\\Users\\edw_5\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.3\\microsoft.entityframeworkcore.abstractions.9.0.3.nupkg.sha512",
