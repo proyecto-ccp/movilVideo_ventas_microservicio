@@ -5,7 +5,7 @@ using Videos.Infraestructura.Adaptadores.Repositorios;
 
 namespace Videos.Infraestructura.Adaptadores.RepositorioGenerico
 {
-    internal class RepositorioBase<T> : IRepositorioBase<T> where T : EntidadBase
+    public class RepositorioBase<T> : IRepositorioBase<T> where T : EntidadBase
     {
         private readonly IServiceProvider _serviceProvider;
         public RepositorioBase(IServiceProvider serviceProvider)
