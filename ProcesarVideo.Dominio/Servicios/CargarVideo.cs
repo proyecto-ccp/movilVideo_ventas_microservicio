@@ -13,6 +13,8 @@ namespace Videos.Dominio.Servicios
                 video.Id = Guid.NewGuid();
                 video.FechaCreacion = DateTime.Now;
                 await videoRepositorio.Cargar(video);
+
+
             }
             else
             {
@@ -22,7 +24,7 @@ namespace Videos.Dominio.Servicios
 
         public bool ValidarVideo(Video video)
         {
-            return video.IdCliente != Guid.Empty && video.IdProducto != 0 && !string.IsNullOrEmpty(video.Nombre) && !string.IsNullOrEmpty(video.UrlVideo) && !string.IsNullOrEmpty(video.UrlImagen);
+            return video.IdCliente != Guid.Empty && video.IdProducto != 0 && !string.IsNullOrEmpty(video.Nombre) && !string.IsNullOrEmpty(video.UrlVideo) && !string.IsNullOrEmpty(video.Archivo);
         }
     }
 }

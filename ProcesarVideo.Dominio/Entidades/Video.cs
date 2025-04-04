@@ -15,6 +15,9 @@ namespace Videos.Dominio.Entidades
         [Column("nombre")]
         public string Nombre { get; set; }
 
+        [NotMapped]
+        public string Archivo { get; set; }
+
         [Column("urlvideo")]
         public string UrlVideo { get; set; }
 
