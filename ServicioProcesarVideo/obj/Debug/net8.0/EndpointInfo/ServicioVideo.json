@@ -243,10 +243,6 @@
       "VideoIn": {
         "type": "object",
         "properties": {
-          "id": {
-            "type": "string",
-            "format": "uuid"
-          },
           "idCliente": {
             "type": "string",
             "format": "uuid"
@@ -256,6 +252,10 @@
             "format": "int32"
           },
           "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "video": {
             "type": "string",
             "nullable": true
           },
