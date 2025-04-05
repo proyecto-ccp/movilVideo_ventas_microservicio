@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Videos.Aplicacion")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f9709083eed5ef56b1366ef3f95f482a91b5238")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a101e44c26692469770b2b9ae015a451948731bf")]
 [assembly: System.Reflection.AssemblyProductAttribute("Videos.Aplicacion")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Videos.Aplicacion")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -24,6 +24,7 @@ namespace Videos.Aplicacion.Mapeadores
                 .ForMember(dest => dest.IdProducto, opt => opt.MapFrom(src => src.IdProducto))
                 .ForMember(dest => dest.Nombre, opt => opt.MapFrom(src => src.Nombre))
                 .ForMember(dest => dest.Video, opt => opt.MapFrom(src => src.Archivo))
+                //.ForMember(dest => dest.Ruta, opt => opt.MapFrom(src => src.Ruta))
                 .ForMember(dest => dest.UrlVideo, opt => opt.MapFrom(src => src.UrlVideo))
                 .ForMember(dest => dest.UrlImagen, opt => opt.MapFrom(src => src.UrlImagen))
                 .ForMember(dest => dest.EstadoCarga, opt => opt.MapFrom(src => src.EstadoCarga))
