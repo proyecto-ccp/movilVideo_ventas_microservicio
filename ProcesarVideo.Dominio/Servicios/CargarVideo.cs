@@ -11,7 +11,7 @@ namespace Videos.Dominio.Servicios
     public class CargarVideo(IVideoRepositorio videoRepositorio)
     {
         private readonly IVideoRepositorio _videoRepositorio = videoRepositorio;
-        GoogleCredential credential = null;
+        //GoogleCredential credential = null;
         public async Task Cargar(Video video)
         {
             if (ValidarVideo(video))
@@ -33,11 +33,11 @@ namespace Videos.Dominio.Servicios
 
         private void PublicarMensaje(Video video)
         {
-            using (var jsonStream = new FileStream("../../Recursos/experimento-ccp-8172d4037e96.json", FileMode.Open,
-                FileAccess.Read, FileShare.Read))
-            {
-                credential = GoogleCredential.FromStream(jsonStream);
-            }
+            //using (var jsonStream = new FileStream("../../Recursos/experimento-ccp-8172d4037e96.json", FileMode.Open,
+            //    FileAccess.Read, FileShare.Read))
+            //{
+            //    credential = GoogleCredential.FromStream(jsonStream);
+            //}
 
             MessagePubSub mensajePubSub = new MessagePubSub();
             mensajePubSub.Id = video.Id;
@@ -56,7 +56,7 @@ namespace Videos.Dominio.Servicios
 
         private async Task AlmacenarVideo(Video video)
         {
-            var gcsStorage = StorageClient.Create(credential);
+            var gcsStorage = StorageClient.Create();
             byte[] binaryData = Convert.FromBase64String(video.Archivo);
             var file = System.Text.Encoding.UTF8.GetBytes(video.Archivo);
 
