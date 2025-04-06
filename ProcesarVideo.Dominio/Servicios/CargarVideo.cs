@@ -56,12 +56,6 @@ namespace Videos.Dominio.Servicios
 
         private async Task AlmacenarVideo(Video video)
         {
-            //using (var jsonStream = new FileStream("../../Recursos/experimento-ccp-8172d4037e96.json", FileMode.Open,
-            //    FileAccess.Read, FileShare.Read))
-            //{
-            //    credential = GoogleCredential.FromStream(jsonStream);
-            //}
-
             var gcsStorage = StorageClient.Create(credential);
             byte[] binaryData = Convert.FromBase64String(video.Archivo);
             var file = System.Text.Encoding.UTF8.GetBytes(video.Archivo);
