@@ -6,17 +6,15 @@ namespace Videos.Dominio.Entidades
     [Table("tbl_video")]
     public class Video : EntidadBase
     {
-        [Column("idcliente")]
-        public Guid IdCliente { get; set; }
 
         [Column("idproducto")]
         public int IdProducto { get; set; }
 
+        [Column("idcliente")]
+        public Guid IdCliente { get; set; }
+
         [Column("nombre")]
         public string Nombre { get; set; }
-
-        //[NotMapped]
-        //public string Ruta { get; set; }
 
         [NotMapped]
         public string Archivo { get; set; }
@@ -25,7 +23,7 @@ namespace Videos.Dominio.Entidades
         public string UrlVideo { get; set; }
 
         [Column("urlimagen")]
-        public IFormFile UrlImagen { get; set; }
+        public string? UrlImagen { get; set; }
 
         [Column("estadocarga")]
         public string EstadoCarga { get; set; }

@@ -5,7 +5,8 @@ namespace Videos.Dominio.Puertos.Repositorios
     public interface IVideoRepositorio
     {
         Task Cargar(Video video);
-        Task<Video> ObtenerPorId(Guid id);
+        Task<Video> ObtenerVideoPorId(Guid id);
         Task<List<Video>> ObtenerListado();
+        Task<List<Video>> ObtenerVideosPorCliente(Guid clienteId);
     }
 }

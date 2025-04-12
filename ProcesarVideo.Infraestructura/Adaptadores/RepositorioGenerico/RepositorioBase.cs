@@ -28,7 +28,6 @@ namespace Videos.Infraestructura.Adaptadores.RepositorioGenerico
             var _context = GetContext();
             var entitySet = _context.Set<T>();
             var res = await entitySet.AddAsync(entity);
-            //await _context.Set<T>().AddAsync(entity);
             await _context.SaveChangesAsync();
             return entity;
         }
@@ -41,6 +40,16 @@ namespace Videos.Infraestructura.Adaptadores.RepositorioGenerico
             return res;
 
         }
+
+        public async Task<List<T>> BuscarPorAtributo(Guid ValueAttribute)
+        {
+            var _context = GetContext();
+            var entitySet = _context.Set<T>();
+            var res = await entitySet.Where(v => EF.Property<Guid>(v, "IdCliente") == ValueAttribute).ToListAsync();
+            await _context.DisposeAsync();
+            return res;
+        }
+
         public async Task<List<T>> DarListado()
         {
             var _context = GetContext();
@@ -71,7 +80,5 @@ namespace Videos.Infraestructura.Adaptadores.RepositorioGenerico
             Dispose(true);
             GC.SuppressFinalize(this);
         }
-    
-    
     }
 }
