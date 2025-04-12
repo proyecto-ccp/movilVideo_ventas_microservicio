@@ -267,3 +267,5 @@ D:\Edward Romero\Documents\MISO\Proyecto Final II\movilVideo_ventas_microservici
 D:\Edward Romero\Documents\MISO\Proyecto Final II\movilVideo_ventas_microservicio\ServicioProcesarVideo\obj\Debug\net8.0\ServicioVideo.pdb
 D:\Edward Romero\Documents\MISO\Proyecto Final II\movilVideo_ventas_microservicio\ServicioProcesarVideo\obj\Debug\net8.0\ServicioVideo.genruntimeconfig.cache
 D:\Edward Romero\Documents\MISO\Proyecto Final II\movilVideo_ventas_microservicio\ServicioProcesarVideo\obj\Debug\net8.0\ref\ServicioVideo.dll
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilVideo_ventas_microservicio\ServicioProcesarVideo\bin\Debug\net8.0\Recursos\experimento-ccp-8172d4037e96.json
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilVideo_ventas_microservicio\ServicioProcesarVideo\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll

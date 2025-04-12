@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Http;
 
 namespace Videos.Aplicacion.Dto
 {
@@ -12,7 +8,7 @@ namespace Videos.Aplicacion.Dto
         public Guid IdCliente { get; set; }
         public int IdProducto { get; set; }
         public string Nombre { get; set; }
-        public string Video { get; set; }
+        public IFormFile Video { get; set; }
         //public string Ruta { get; set; }
         //public string UrlVideo { get; set; }
         //public string UrlImagen { get; set; }

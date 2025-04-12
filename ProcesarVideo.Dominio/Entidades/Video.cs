@@ -1,4 +1,4 @@
-﻿
+﻿using Microsoft.AspNetCore.Http;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Videos.Dominio.Entidades
@@ -25,7 +25,7 @@ namespace Videos.Dominio.Entidades
         public string UrlVideo { get; set; }
 
         [Column("urlimagen")]
-        public string UrlImagen { get; set; }
+        public IFormFile UrlImagen { get; set; }
 
         [Column("estadocarga")]
         public string EstadoCarga { get; set; }
