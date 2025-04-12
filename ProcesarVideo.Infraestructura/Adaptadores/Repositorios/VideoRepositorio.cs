@@ -22,9 +22,14 @@ namespace Videos.Infraestructura.Adaptadores.Repositorios
             return await _repositorioBase.DarListado();
         }
 
-        public async Task<Video> ObtenerPorId(Guid id)
+        public async Task<Video> ObtenerVideoPorId(Guid id)
         {
            return await _repositorioBase.BuscarPorLlave(id);
+        }
+
+        public async Task<List<Video>> ObtenerVideosPorCliente(Guid clienteId)
+        {
+            return await _repositorioBase.BuscarPorAtributo(clienteId);
         }
     }
 }

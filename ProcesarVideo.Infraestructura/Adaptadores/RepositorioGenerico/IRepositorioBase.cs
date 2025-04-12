@@ -6,6 +6,7 @@ namespace Videos.Infraestructura.Adaptadores.RepositorioGenerico
     {
         Task<T> Cargar(T entity);
         Task<T> BuscarPorLlave(object ValueKey);
+        Task<List<T>> BuscarPorAtributo(Guid ValueAttribute);
         Task<List<T>> DarListado();
     }
 }

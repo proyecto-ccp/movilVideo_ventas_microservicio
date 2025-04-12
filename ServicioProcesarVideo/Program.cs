@@ -2,7 +2,9 @@ using Videos.Aplicacion.Comandos;
 using Videos.Dominio.Puertos.Repositorios;
 using Videos.Infraestructura.Adaptadores.Repositorios;
 using Videos.Infraestructura.Adaptadores.RepositorioGenerico;
-using Microsoft.EntityFrameworkCore;;
+using Microsoft.EntityFrameworkCore;
+using Videos.Aplicacion.Consultas;
+;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,6 +20,7 @@ builder.Services.AddDbContext<VideosDbContext>(options =>
 builder.Services.AddTransient(typeof(IRepositorioBase<>), typeof(RepositorioBase<>));
 builder.Services.AddTransient<IVideoRepositorio, VideoRepositorio>();
 builder.Services.AddScoped<IComandosVideo, ManejadorComandos>();
+builder.Services.AddScoped<IConsultasVideo, ManejadorConsultas>();
 
 var app = builder.Build();
 
