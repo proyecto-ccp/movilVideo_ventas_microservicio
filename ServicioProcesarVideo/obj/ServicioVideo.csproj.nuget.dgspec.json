@@ -138,6 +138,10 @@
             "Google.Cloud.Storage.V1": {
               "target": "Package",
               "version": "[4.11.0, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.3.0, )"
             }
           },
           "imports": [

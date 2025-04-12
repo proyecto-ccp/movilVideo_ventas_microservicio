@@ -257,6 +257,7 @@
           },
           "video": {
             "type": "string",
+            "format": "binary",
             "nullable": true
           }
         },

@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "experimento-ccp",
+  "private_key_id": "4a3cd8f1efb724b31093e0db0543a01d6b06b24c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDRFaXFqkxQLZdz\ncIo3W+UvmjM/V3rrTCNUR33Ld4SV2qJcEy+ZCXHZ24Kgp6+LsPK14lYPPQj3+ObG\nX6NqRuby7K0QhEF/hhiPKuc1cp78uXhDMXgmAvZkTn6Hx4JqGO+FomgaOGCGTAm4\nWfBLJTyTvbp8P57iBYgGgw94RiIfNNkjJqZX8g81AzwUTVI8mpm23eXsxj59tcS6\nTplsgVbkfFYc/9QSdML7qALvt56RP1l0ArpAek+HjWkPwROaOhD267L66YF2tFl+\nURHxPh0xaBCg9EAahRQmkuKQ2iKsuVEXIZoRRve/QHGabIrYfFOHkRXElWTn/BiP\nqqo2Nl9HAgMBAAECggEAZT+OXwHwooLxbD17MQOXIE4TswCxzW+5S/6ys+zUj5yo\nMt43lmw0bcMWpqWNJKAzaFCKTCbKSQqG9lkp0TU0cT6bL/xbm11cVzf3brJquwc1\nbZRvEjktB7XbH/VE+gvJMXVL5CaY12/K5TLoYftOMl0WCUTls53qGP0uaJfNvj4A\nW5rMZAPeXFo9GD6gwyCyLnNpzrL+ug1o7l6E0pUk8jmqIgrhUDojlEtx/rBtXKOd\nudTs1DcKY3TuV8v8btkRdK85DuGGHSxspSefGRbk4qiHXnDdR3SkH1YX8dvl4pmC\ndC2kPxg5z9TSBRfDfmWPUvKf3IiRXgsIYQk9cbm4QQKBgQD8dtHPpDloICaaAQNW\nUv4yEn8UxGrwk73sPtAq/Mjf0DI95zZOpYvzR4xM3d9ssEpZ442F1N7wwTMvVDQY\nrOVoToMUlzBdM08ySqOwY3GzxG67EV/HNjYT8Wn4OPBoUXpThDdHhIwfLR4Hq5LO\nCXz/aKIPKIeAMre+JCPNA1c68wKBgQDUA0us1IBtACRhpui5wK+HNI4d/6maWBdx\nQ74I2oF8w2CERZ8pLv64vh5e7wrBbCU/2/B48c2WcjUrXkhZHxr246TYe+brWy/m\nNHtVi45ZFiJcR9Fs4t+Wy08PUiN8i+iKd30ATBjMPqP623n3e735xXngekzk2S0R\n2lDc2iV3XQKBgQDQnTZeB+vP2NFM7I1fZZDau2H7PRrI1KxZbMYC34L1Pkpl0IqV\njkIIsxSB58zZOQsXH+svrWjTNDIhZ8jsouGlwUqbVxsFyIImonqEJIgt7aE6Pu8P\n5AHnlNLl49bzvHACVvx+wk4u7M8ls2bJjhmVy1YuhGUDT+V43tAediY8dQKBgQCo\nxhLY+7VckC9mGWPMc0qIHFtCIEMYniXTQbUnASLxeer8gRvpwgJ+eMJemnZ6cafZ\nhTGSZhNeP356Dq0TXUKu5ZtVxpSWKVohLQg9mkHwQ0GJKpbZ0mVhemlubdnYDNxK\nVkKJGQrolLkfOtaGH9ik3AJgo5tQ1l4dhyi2F2aZ9QKBgQDDX5gfhl+Ofc0aMCz4\npkCN0R1XT2fYxjrOjkBvxTWciiVbE/Z9qNp6ckIfViypyq6Cg8VU+rMbiUoXnhpd\nLxdtxKlzOmJhxAM3PTqLhaaTdPl6jbj0gf0CQ87soZtvCvnTpG4PwG6K6l+watJX\nvqP28P7U+edP76pAkgcTobjtig==\n-----END PRIVATE KEY-----\n",
+  "client_email": "services-worker@experimento-ccp.iam.gserviceaccount.com",
+  "client_id": "106067869810814000771",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/services-worker%40experimento-ccp.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
