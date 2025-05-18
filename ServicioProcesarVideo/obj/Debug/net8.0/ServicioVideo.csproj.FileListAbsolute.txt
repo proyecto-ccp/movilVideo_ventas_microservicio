@@ -73,7 +73,6 @@ D:\Edward Romero\Documents\MISO\Proyecto Final II\movilVideo_ventas_microservici
 D:\Edward Romero\Documents\MISO\Proyecto Final II\movilVideo_ventas_microservicio\ServicioProcesarVideo\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ServicioVideo.props
 D:\Edward Romero\Documents\MISO\Proyecto Final II\movilVideo_ventas_microservicio\ServicioProcesarVideo\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ServicioVideo.props
 D:\Edward Romero\Documents\MISO\Proyecto Final II\movilVideo_ventas_microservicio\ServicioProcesarVideo\obj\Debug\net8.0\staticwebassets.pack.json
-D:\Edward Romero\Documents\MISO\Proyecto Final II\movilVideo_ventas_microservicio\ServicioProcesarVideo\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\Edward Romero\Documents\MISO\Proyecto Final II\movilVideo_ventas_microservicio\ServicioProcesarVideo\obj\Debug\net8.0\Servicio.B29F43C7.Up2Date
 D:\Edward Romero\Documents\MISO\Proyecto Final II\movilVideo_ventas_microservicio\ServicioProcesarVideo\obj\Debug\net8.0\ServicioVideo.dll
 D:\Edward Romero\Documents\MISO\Proyecto Final II\movilVideo_ventas_microservicio\ServicioProcesarVideo\obj\Debug\net8.0\refint\ServicioVideo.dll

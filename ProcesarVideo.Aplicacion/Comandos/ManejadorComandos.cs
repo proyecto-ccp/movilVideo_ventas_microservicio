@@ -29,6 +29,7 @@ namespace Videos.Aplicacion.Comandos
                 baseOut.Resultado = Resultado.Exitoso;
                 baseOut.Mensaje = "video cargado exitosamente";
                 baseOut.Status = HttpStatusCode.Created;
+                baseOut.Id = videoDominio.Id;
             }
             catch (Exception ex)
             {

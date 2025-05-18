@@ -9,5 +9,6 @@ namespace Videos.Aplicacion.Dto
         public Resultado Resultado { get; set; }
         public string Mensaje { get; set; }
         public HttpStatusCode Status { get; set; }
+        public Guid Id { get; set; }
     }
 }
